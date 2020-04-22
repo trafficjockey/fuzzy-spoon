@@ -1,0 +1,22 @@
+body {font-family: helvetica, arial, sans-serif;}
+a{color:white;}
+
+.pika-wrap {width: 520px; margin: 0 auto;}
+
+.pika-stage {position: relative; height: 340px; width: 500px;}
+	/*position image holders */
+	.pika-stage .pika-aniwrap, .pika-stage .main-image {position: absolute; top: 0px; left: 0px;}
+	.pika-stage .pika-aniwrap {display: none;z-index:2;}
+	.pika-stage .pika-ani {position:relative;display: none;z-index:2;margin:0 auto;}
+	.pika-stage img {border:0;}
+
+.pika-stage .caption {position: absolute; background: url(../../assets/images/75-black.png);  border: 1px solid #141414; font-size: 11px; color: #fafafa; padding: 10px; text-align: right; bottom: 50px; right: 10px;}
+	.pika-stage .caption p {padding: 0; margin: 0; line-height: 14px;}
+.pika-textnav {display:none;}
+#pikame{display:none;}
+.pikachoose { position: relative;z-index:1;}
+.pika-textnav, .pika-imgnav {display:none;}
+.pika-counter{display:none;}
+.image-top { position:absolute;  left:0px; top:0px;z-index:10;
+
+}
